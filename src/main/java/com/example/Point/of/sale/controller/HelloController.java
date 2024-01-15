@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping
     public String hello(){
-        return "i'm meryem mouhoubi :)";
+        return "je suis toujours a la recherche d'un PFE :( :)";
     }
 
     @GetMapping("/user")
